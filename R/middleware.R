@@ -45,7 +45,7 @@ alesia <- function(
 make_hook <- function(
   args
 ) {
-  \(content, ext) {
+  \(self, content, ext) {
     args$html <- content
     do.call("minify", args)
   }

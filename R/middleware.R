@@ -36,7 +36,7 @@ alesia <- function(
   trimCustomFragments = FALSE,
   useShortDoctype = FALSE
 ) {
-  args <- as.list(environment())[-1]
+  args <- as.list(environment())
   \(req, res) {
     res$post_render_hook(make_hook(args))
   }

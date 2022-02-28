@@ -3,6 +3,8 @@
 
 # alesia
 
+<img src="https://ambiorix.dev/img/alesia.jpg" height="250" />
+
 HTML minifier middleware for [ambiorix](https://ambiorix.dev).
 
 ## Installation
